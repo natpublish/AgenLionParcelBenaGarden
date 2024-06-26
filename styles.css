@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #ff5722; /* Oranye */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background-color: #d32f2f; /* Merah */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#sidebar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#sidebar button {
+    background-color: #ff5722; /* Oranye */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#sidebar button:hover {
+    background-color: #e64a19; /* Oranye lebih gelap */
+}
+
+#sidebar-menu {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar-menu ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar-menu ul li a {
+    color: #ff5722; /* Oranye */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sidebar-menu ul li a:hover {
+    text-decoration: underline;
+    color: #d32f2f; /* Merah */
+}
+
